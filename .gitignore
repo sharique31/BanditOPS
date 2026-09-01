@@ -10,4 +10,6 @@ __pycache__/
 
 # Project caches
 .cache/
+whittle_cache/turing-deinterleaving-challenge/
+turing-deinterleaving-challenge/
 whittle_cache/
