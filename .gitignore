@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Large dataset
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Project caches
+.cache/
+whittle_cache/

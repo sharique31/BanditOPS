@@ -1,0 +1,1422 @@
+{
+  "n_bands": 20,
+  "n_files": 250,
+  "band_edges_mhz": [
+    500.0,
+    1375.0,
+    2250.0,
+    3125.0,
+    4000.0,
+    4875.0,
+    5750.0,
+    6625.0,
+    7500.0,
+    8375.0,
+    9250.0,
+    10125.0,
+    11000.0,
+    11875.0,
+    12750.0,
+    13625.0,
+    14500.0,
+    15375.0,
+    16250.0,
+    17125.0,
+    18000.0
+  ],
+  "p01": [
+    0.1668383995396451,
+    0.05004127383807722,
+    0.1533593794611362,
+    0.12733041680394833,
+    0.020663412561908567,
+    0.16843271153061193,
+    0.035008171486717816,
+    0.0,
+    0.0067041149484862225,
+    0.13310634165842458,
+    0.14168686073957515,
+    0.016715174619177393,
+    0.013066957927939868,
+    0.0020852611714634395,
+    0.0,
+    0.0,
+    0.0,
+    0.004073354464950492,
+    0.0,
+    0.0
+  ],
+  "p11": [
+    0.8507850102008944,
+    0.8769220786270964,
+    0.9235038461948339,
+    0.9145787416735627,
+    0.9734651716552648,
+    0.6754442907406311,
+    0.3938221597517547,
+    0.0,
+    0.3278049507162897,
+    0.8915424036699902,
+    0.8756172108389233,
+    0.40198005518186575,
+    0.3742239002756802,
+    0.21977466084157277,
+    0.0,
+    0.0,
+    0.0,
+    0.44503146347208666,
+    0.0,
+    0.0
+  ],
+  "counts": {
+    "n00": [
+      3208457.0,
+      5508880.0,
+      2298134.0,
+      2857903.0,
+      4490839.0,
+      4465676.0,
+      7441603.0,
+      8156937.0,
+      8022238.0,
+      3174653.0,
+      3272748.0,
+      7802488.0,
+      7885671.0,
+      8118228.0,
+      8156937.0,
+      8156937.0,
+      8156937.0,
+      8064519.0,
+      8156937.0,
+      8156937.0
+    ],
+    "n01": [
+      642485.0,
+      290193.0,
+      416281.0,
+      416994.0,
+      94754.0,
+      904516.0,
+      269968.0,
+      0.0,
+      54145.0,
+      487449.0,
+      540252.0,
+      132637.0,
+      104406.0,
+      16964.0,
+      0.0,
+      0.0,
+      0.0,
+      32984.0,
+      0.0,
+      0.0
+    ],
+    "n10": [
+      642519.0,
+      290201.0,
+      416332.0,
+      417030.0,
+      94765.0,
+      904454.0,
+      269971.0,
+      0.0,
+      54148.0,
+      487499.0,
+      540311.0,
+      132648.0,
+      104417.0,
+      16966.0,
+      0.0,
+      0.0,
+      0.0,
+      32984.0,
+      0.0,
+      0.0
+    ],
+    "n11": [
+      3663476.0,
+      2067663.0,
+      5026190.0,
+      4465010.0,
+      3476579.0,
+      1882291.0,
+      175395.0,
+      0.0,
+      26406.0,
+      4007336.0,
+      3803626.0,
+      89164.0,
+      62443.0,
+      4779.0,
+      0.0,
+      0.0,
+      0.0,
+      26450.0,
+      0.0,
+      0.0
+    ]
+  },
+  "bands_with_no_zero_obs": [],
+  "bands_with_no_one_obs": [
+    7,
+    14,
+    15,
+    16,
+    18,
+    19
+  ],
+  "per_file_summary": [
+    {
+      "file": "config_0.h5",
+      "num_pdws": 13929,
+      "activity_fraction": 0.01261
+    },
+    {
+      "file": "config_1.h5",
+      "num_pdws": 448575,
+      "activity_fraction": 0.163625
+    },
+    {
+      "file": "config_10.h5",
+      "num_pdws": 985122,
+      "activity_fraction": 0.159965
+    },
+    {
+      "file": "config_100.h5",
+      "num_pdws": 1353963,
+      "activity_fraction": 0.2103217005797431
+    },
+    {
+      "file": "config_101.h5",
+      "num_pdws": 1518874,
+      "activity_fraction": 0.27658333333333335
+    },
+    {
+      "file": "config_102.h5",
+      "num_pdws": 1740041,
+      "activity_fraction": 0.28680333333333335
+    },
+    {
+      "file": "config_103.h5",
+      "num_pdws": 3674139,
+      "activity_fraction": 0.3058783333333333
+    },
+    {
+      "file": "config_104.h5",
+      "num_pdws": 2062184,
+      "activity_fraction": 0.2870783333333333
+    },
+    {
+      "file": "config_105.h5",
+      "num_pdws": 1960073,
+      "activity_fraction": 0.29081
+    },
+    {
+      "file": "config_106.h5",
+      "num_pdws": 2187808,
+      "activity_fraction": 0.2515
+    },
+    {
+      "file": "config_107.h5",
+      "num_pdws": 1817602,
+      "activity_fraction": 0.21094682788626934
+    },
+    {
+      "file": "config_108.h5",
+      "num_pdws": 431016,
+      "activity_fraction": 0.16203666666666666
+    },
+    {
+      "file": "config_109.h5",
+      "num_pdws": 967128,
+      "activity_fraction": 0.17694662379421222
+    },
+    {
+      "file": "config_11.h5",
+      "num_pdws": 1740766,
+      "activity_fraction": 0.26990038773129904
+    },
+    {
+      "file": "config_110.h5",
+      "num_pdws": 550233,
+      "activity_fraction": 0.22743833333333333
+    },
+    {
+      "file": "config_111.h5",
+      "num_pdws": 3133728,
+      "activity_fraction": 0.3167800705859909
+    },
+    {
+      "file": "config_112.h5",
+      "num_pdws": 538730,
+      "activity_fraction": 0.14365
+    },
+    {
+      "file": "config_113.h5",
+      "num_pdws": 821133,
+      "activity_fraction": 0.183595
+    },
+    {
+      "file": "config_114.h5",
+      "num_pdws": 2537308,
+      "activity_fraction": 0.31267833333333334
+    },
+    {
+      "file": "config_115.h5",
+      "num_pdws": 650926,
+      "activity_fraction": 0.10310166666666666
+    },
+    {
+      "file": "config_116.h5",
+      "num_pdws": 2276705,
+      "activity_fraction": 0.2432124020308572
+    },
+    {
+      "file": "config_117.h5",
+      "num_pdws": 206686,
+      "activity_fraction": 0.063095
+    },
+    {
+      "file": "config_118.h5",
+      "num_pdws": 559287,
+      "activity_fraction": 0.11183833333333333
+    },
+    {
+      "file": "config_119.h5",
+      "num_pdws": 1389054,
+      "activity_fraction": 0.228005
+    },
+    {
+      "file": "config_12.h5",
+      "num_pdws": 1995164,
+      "activity_fraction": 0.30387333333333333
+    },
+    {
+      "file": "config_120.h5",
+      "num_pdws": 2378205,
+      "activity_fraction": 0.23622286039660337
+    },
+    {
+      "file": "config_121.h5",
+      "num_pdws": 2266167,
+      "activity_fraction": 0.2931033333333333
+    },
+    {
+      "file": "config_122.h5",
+      "num_pdws": 1644287,
+      "activity_fraction": 0.23126207126207127
+    },
+    {
+      "file": "config_123.h5",
+      "num_pdws": 1327521,
+      "activity_fraction": 0.18188961054756866
+    },
+    {
+      "file": "config_124.h5",
+      "num_pdws": 1719644,
+      "activity_fraction": 0.20529333333333333
+    },
+    {
+      "file": "config_125.h5",
+      "num_pdws": 2410349,
+      "activity_fraction": 0.2575530143827952
+    },
+    {
+      "file": "config_126.h5",
+      "num_pdws": 3499324,
+      "activity_fraction": 0.2940720876778041
+    },
+    {
+      "file": "config_127.h5",
+      "num_pdws": 909710,
+      "activity_fraction": 0.22484
+    },
+    {
+      "file": "config_128.h5",
+      "num_pdws": 163840,
+      "activity_fraction": 0.119725
+    },
+    {
+      "file": "config_129.h5",
+      "num_pdws": 1970994,
+      "activity_fraction": 0.28044009455260155
+    },
+    {
+      "file": "config_13.h5",
+      "num_pdws": 1289471,
+      "activity_fraction": 0.21198553713171944
+    },
+    {
+      "file": "config_130.h5",
+      "num_pdws": 2656765,
+      "activity_fraction": 0.23947136563876653
+    },
+    {
+      "file": "config_131.h5",
+      "num_pdws": 10212,
+      "activity_fraction": 0.007125
+    },
+    {
+      "file": "config_132.h5",
+      "num_pdws": 1148669,
+      "activity_fraction": 0.24930333333333332
+    },
+    {
+      "file": "config_133.h5",
+      "num_pdws": 2307806,
+      "activity_fraction": 0.29442
+    },
+    {
+      "file": "config_134.h5",
+      "num_pdws": 1203518,
+      "activity_fraction": 0.23006833333333335
+    },
+    {
+      "file": "config_135.h5",
+      "num_pdws": 2289725,
+      "activity_fraction": 0.22969333333333333
+    },
+    {
+      "file": "config_136.h5",
+      "num_pdws": 1309696,
+      "activity_fraction": 0.1625936462778568
+    },
+    {
+      "file": "config_137.h5",
+      "num_pdws": 1248260,
+      "activity_fraction": 0.24430833333333332
+    },
+    {
+      "file": "config_138.h5",
+      "num_pdws": 1452596,
+      "activity_fraction": 0.2523754678951915
+    },
+    {
+      "file": "config_139.h5",
+      "num_pdws": 370505,
+      "activity_fraction": 0.16338166666666668
+    },
+    {
+      "file": "config_14.h5",
+      "num_pdws": 1394022,
+      "activity_fraction": 0.32369166666666666
+    },
+    {
+      "file": "config_140.h5",
+      "num_pdws": 1081670,
+      "activity_fraction": 0.2624883333333333
+    },
+    {
+      "file": "config_141.h5",
+      "num_pdws": 672821,
+      "activity_fraction": 0.1440296394185388
+    },
+    {
+      "file": "config_142.h5",
+      "num_pdws": 4116572,
+      "activity_fraction": 0.2475088925206691
+    },
+    {
+      "file": "config_143.h5",
+      "num_pdws": 1252858,
+      "activity_fraction": 0.194415
+    },
+    {
+      "file": "config_144.h5",
+      "num_pdws": 1404849,
+      "activity_fraction": 0.18529696240915983
+    },
+    {
+      "file": "config_145.h5",
+      "num_pdws": 716661,
+      "activity_fraction": 0.24584333333333333
+    },
+    {
+      "file": "config_146.h5",
+      "num_pdws": 396761,
+      "activity_fraction": 0.15116166666666667
+    },
+    {
+      "file": "config_147.h5",
+      "num_pdws": 1050525,
+      "activity_fraction": 0.13253166666666666
+    },
+    {
+      "file": "config_148.h5",
+      "num_pdws": 1485462,
+      "activity_fraction": 0.31094666666666665
+    },
+    {
+      "file": "config_149.h5",
+      "num_pdws": 959645,
+      "activity_fraction": 0.23991
+    },
+    {
+      "file": "config_15.h5",
+      "num_pdws": 882804,
+      "activity_fraction": 0.16457505003335557
+    },
+    {
+      "file": "config_150.h5",
+      "num_pdws": 2340860,
+      "activity_fraction": 0.19615285824367135
+    },
+    {
+      "file": "config_151.h5",
+      "num_pdws": 39662,
+      "activity_fraction": 0.034865
+    },
+    {
+      "file": "config_152.h5",
+      "num_pdws": 704142,
+      "activity_fraction": 0.18044166666666667
+    },
+    {
+      "file": "config_153.h5",
+      "num_pdws": 2393236,
+      "activity_fraction": 0.32502
+    },
+    {
+      "file": "config_154.h5",
+      "num_pdws": 2050175,
+      "activity_fraction": 0.28121417487411726
+    },
+    {
+      "file": "config_155.h5",
+      "num_pdws": 652679,
+      "activity_fraction": 0.20708333333333334
+    },
+    {
+      "file": "config_156.h5",
+      "num_pdws": 177576,
+      "activity_fraction": 0.0988
+    },
+    {
+      "file": "config_157.h5",
+      "num_pdws": 1934523,
+      "activity_fraction": 0.29828666666666664
+    },
+    {
+      "file": "config_158.h5",
+      "num_pdws": 18853,
+      "activity_fraction": 0.024381666666666666
+    },
+    {
+      "file": "config_159.h5",
+      "num_pdws": 2443548,
+      "activity_fraction": 0.2930278382042309
+    },
+    {
+      "file": "config_16.h5",
+      "num_pdws": 1917725,
+      "activity_fraction": 0.194666590284143
+    },
+    {
+      "file": "config_160.h5",
+      "num_pdws": 2922089,
+      "activity_fraction": 0.299195
+    },
+    {
+      "file": "config_161.h5",
+      "num_pdws": 1587,
+      "activity_fraction": 0.0023266666666666666
+    },
+    {
+      "file": "config_162.h5",
+      "num_pdws": 2150470,
+      "activity_fraction": 0.27073833333333336
+    },
+    {
+      "file": "config_163.h5",
+      "num_pdws": 1998104,
+      "activity_fraction": 0.287475
+    },
+    {
+      "file": "config_164.h5",
+      "num_pdws": 2418031,
+      "activity_fraction": 0.26982666414999373
+    },
+    {
+      "file": "config_165.h5",
+      "num_pdws": 3063811,
+      "activity_fraction": 0.21545700893511058
+    },
+    {
+      "file": "config_166.h5",
+      "num_pdws": 747705,
+      "activity_fraction": 0.20834833333333333
+    },
+    {
+      "file": "config_167.h5",
+      "num_pdws": 3776104,
+      "activity_fraction": 0.278045
+    },
+    {
+      "file": "config_168.h5",
+      "num_pdws": 1194181,
+      "activity_fraction": 0.18503666666666665
+    },
+    {
+      "file": "config_169.h5",
+      "num_pdws": 1002868,
+      "activity_fraction": 0.17182333333333333
+    },
+    {
+      "file": "config_17.h5",
+      "num_pdws": 494499,
+      "activity_fraction": 0.16697
+    },
+    {
+      "file": "config_170.h5",
+      "num_pdws": 928595,
+      "activity_fraction": 0.10597083615928689
+    },
+    {
+      "file": "config_171.h5",
+      "num_pdws": 1036422,
+      "activity_fraction": 0.269475
+    },
+    {
+      "file": "config_172.h5",
+      "num_pdws": 2470041,
+      "activity_fraction": 0.21921646825991783
+    },
+    {
+      "file": "config_173.h5",
+      "num_pdws": 1633754,
+      "activity_fraction": 0.264705
+    },
+    {
+      "file": "config_174.h5",
+      "num_pdws": 1531210,
+      "activity_fraction": 0.2700066666666667
+    },
+    {
+      "file": "config_175.h5",
+      "num_pdws": 169581,
+      "activity_fraction": 0.10353833333333333
+    },
+    {
+      "file": "config_176.h5",
+      "num_pdws": 38522,
+      "activity_fraction": 0.03630166666666667
+    },
+    {
+      "file": "config_177.h5",
+      "num_pdws": 1968647,
+      "activity_fraction": 0.23553658158520202
+    },
+    {
+      "file": "config_178.h5",
+      "num_pdws": 1514017,
+      "activity_fraction": 0.2465109441359033
+    },
+    {
+      "file": "config_179.h5",
+      "num_pdws": 643375,
+      "activity_fraction": 0.26091
+    },
+    {
+      "file": "config_18.h5",
+      "num_pdws": 2669648,
+      "activity_fraction": 0.255675
+    },
+    {
+      "file": "config_180.h5",
+      "num_pdws": 1742146,
+      "activity_fraction": 0.262356608478803
+    },
+    {
+      "file": "config_181.h5",
+      "num_pdws": 1596231,
+      "activity_fraction": 0.20496492501209482
+    },
+    {
+      "file": "config_182.h5",
+      "num_pdws": 276072,
+      "activity_fraction": 0.10545666666666667
+    },
+    {
+      "file": "config_183.h5",
+      "num_pdws": 2050954,
+      "activity_fraction": 0.22973333333333334
+    },
+    {
+      "file": "config_184.h5",
+      "num_pdws": 1146615,
+      "activity_fraction": 0.26651833333333336
+    },
+    {
+      "file": "config_185.h5",
+      "num_pdws": 1458545,
+      "activity_fraction": 0.2518554367573041
+    },
+    {
+      "file": "config_186.h5",
+      "num_pdws": 2200512,
+      "activity_fraction": 0.22303664921465968
+    },
+    {
+      "file": "config_187.h5",
+      "num_pdws": 1763872,
+      "activity_fraction": 0.21506360494816448
+    },
+    {
+      "file": "config_188.h5",
+      "num_pdws": 2232803,
+      "activity_fraction": 0.25086
+    },
+    {
+      "file": "config_189.h5",
+      "num_pdws": 351472,
+      "activity_fraction": 0.10310166666666666
+    },
+    {
+      "file": "config_19.h5",
+      "num_pdws": 941790,
+      "activity_fraction": 0.19059666666666666
+    },
+    {
+      "file": "config_190.h5",
+      "num_pdws": 1711417,
+      "activity_fraction": 0.21701879934117113
+    },
+    {
+      "file": "config_191.h5",
+      "num_pdws": 2428364,
+      "activity_fraction": 0.28760886148369463
+    },
+    {
+      "file": "config_192.h5",
+      "num_pdws": 1107204,
+      "activity_fraction": 0.289185
+    },
+    {
+      "file": "config_193.h5",
+      "num_pdws": 418107,
+      "activity_fraction": 0.11135833333333334
+    },
+    {
+      "file": "config_194.h5",
+      "num_pdws": 537307,
+      "activity_fraction": 0.16884833333333332
+    },
+    {
+      "file": "config_195.h5",
+      "num_pdws": 3768,
+      "activity_fraction": 0.00628
+    },
+    {
+      "file": "config_196.h5",
+      "num_pdws": 1895786,
+      "activity_fraction": 0.26510666666666666
+    },
+    {
+      "file": "config_197.h5",
+      "num_pdws": 898878,
+      "activity_fraction": 0.22010166666666667
+    },
+    {
+      "file": "config_198.h5",
+      "num_pdws": 182780,
+      "activity_fraction": 0.11217666666666666
+    },
+    {
+      "file": "config_199.h5",
+      "num_pdws": 3678166,
+      "activity_fraction": 0.22792880639097746
+    },
+    {
+      "file": "config_2.h5",
+      "num_pdws": 285865,
+      "activity_fraction": 0.09515833333333333
+    },
+    {
+      "file": "config_20.h5",
+      "num_pdws": 377053,
+      "activity_fraction": 0.04600166666666667
+    },
+    {
+      "file": "config_200.h5",
+      "num_pdws": 1723322,
+      "activity_fraction": 0.313105
+    },
+    {
+      "file": "config_201.h5",
+      "num_pdws": 18840,
+      "activity_fraction": 0.005485
+    },
+    {
+      "file": "config_202.h5",
+      "num_pdws": 1073006,
+      "activity_fraction": 0.25710333333333335
+    },
+    {
+      "file": "config_203.h5",
+      "num_pdws": 1186215,
+      "activity_fraction": 0.15920333333333334
+    },
+    {
+      "file": "config_204.h5",
+      "num_pdws": 1890186,
+      "activity_fraction": 0.2953817774556954
+    },
+    {
+      "file": "config_205.h5",
+      "num_pdws": 145095,
+      "activity_fraction": 0.07308666666666666
+    },
+    {
+      "file": "config_206.h5",
+      "num_pdws": 843511,
+      "activity_fraction": 0.2573683333333333
+    },
+    {
+      "file": "config_207.h5",
+      "num_pdws": 2115229,
+      "activity_fraction": 0.31461333333333336
+    },
+    {
+      "file": "config_208.h5",
+      "num_pdws": 421228,
+      "activity_fraction": 0.13674
+    },
+    {
+      "file": "config_209.h5",
+      "num_pdws": 2383457,
+      "activity_fraction": 0.23910839645298357
+    },
+    {
+      "file": "config_21.h5",
+      "num_pdws": 999472,
+      "activity_fraction": 0.22876728044513278
+    },
+    {
+      "file": "config_210.h5",
+      "num_pdws": 2293660,
+      "activity_fraction": 0.2672116666666667
+    },
+    {
+      "file": "config_211.h5",
+      "num_pdws": 1922740,
+      "activity_fraction": 0.24399166666666666
+    },
+    {
+      "file": "config_212.h5",
+      "num_pdws": 2832984,
+      "activity_fraction": 0.2259509221534538
+    },
+    {
+      "file": "config_213.h5",
+      "num_pdws": 2828698,
+      "activity_fraction": 0.33928833333333336
+    },
+    {
+      "file": "config_214.h5",
+      "num_pdws": 844313,
+      "activity_fraction": 0.14655041410227188
+    },
+    {
+      "file": "config_215.h5",
+      "num_pdws": 1893842,
+      "activity_fraction": 0.21674833333333332
+    },
+    {
+      "file": "config_216.h5",
+      "num_pdws": 1842208,
+      "activity_fraction": 0.17695248745693043
+    },
+    {
+      "file": "config_217.h5",
+      "num_pdws": 1517043,
+      "activity_fraction": 0.2603666666666667
+    },
+    {
+      "file": "config_218.h5",
+      "num_pdws": 33281,
+      "activity_fraction": 0.021205482006339735
+    },
+    {
+      "file": "config_219.h5",
+      "num_pdws": 3537187,
+      "activity_fraction": 0.349975
+    },
+    {
+      "file": "config_22.h5",
+      "num_pdws": 48450,
+      "activity_fraction": 0.03931
+    },
+    {
+      "file": "config_220.h5",
+      "num_pdws": 1909620,
+      "activity_fraction": 0.22587559699795315
+    },
+    {
+      "file": "config_221.h5",
+      "num_pdws": 2423515,
+      "activity_fraction": 0.22016652984637036
+    },
+    {
+      "file": "config_222.h5",
+      "num_pdws": 2114080,
+      "activity_fraction": 0.2906
+    },
+    {
+      "file": "config_223.h5",
+      "num_pdws": 683097,
+      "activity_fraction": 0.20712453100860737
+    },
+    {
+      "file": "config_224.h5",
+      "num_pdws": 471810,
+      "activity_fraction": 0.22163833333333333
+    },
+    {
+      "file": "config_225.h5",
+      "num_pdws": 2995411,
+      "activity_fraction": 0.2517462374882984
+    },
+    {
+      "file": "config_226.h5",
+      "num_pdws": 935965,
+      "activity_fraction": 0.169930615576683
+    },
+    {
+      "file": "config_227.h5",
+      "num_pdws": 2313059,
+      "activity_fraction": 0.2378684489312644
+    },
+    {
+      "file": "config_228.h5",
+      "num_pdws": 2003500,
+      "activity_fraction": 0.23175364077669902
+    },
+    {
+      "file": "config_229.h5",
+      "num_pdws": 1663629,
+      "activity_fraction": 0.23035193550231575
+    },
+    {
+      "file": "config_23.h5",
+      "num_pdws": 926043,
+      "activity_fraction": 0.21590666666666666
+    },
+    {
+      "file": "config_230.h5",
+      "num_pdws": 1009734,
+      "activity_fraction": 0.1911418481459682
+    },
+    {
+      "file": "config_231.h5",
+      "num_pdws": 479356,
+      "activity_fraction": 0.05503
+    },
+    {
+      "file": "config_232.h5",
+      "num_pdws": 1144659,
+      "activity_fraction": 0.24219
+    },
+    {
+      "file": "config_233.h5",
+      "num_pdws": 261110,
+      "activity_fraction": 0.07208166666666667
+    },
+    {
+      "file": "config_234.h5",
+      "num_pdws": 1556165,
+      "activity_fraction": 0.2778966666666667
+    },
+    {
+      "file": "config_235.h5",
+      "num_pdws": 791366,
+      "activity_fraction": 0.2215041527502734
+    },
+    {
+      "file": "config_236.h5",
+      "num_pdws": 3491958,
+      "activity_fraction": 0.20255584342833136
+    },
+    {
+      "file": "config_237.h5",
+      "num_pdws": 630977,
+      "activity_fraction": 0.17646833333333334
+    },
+    {
+      "file": "config_238.h5",
+      "num_pdws": 2581809,
+      "activity_fraction": 0.2741766666666667
+    },
+    {
+      "file": "config_239.h5",
+      "num_pdws": 1963437,
+      "activity_fraction": 0.2164794270467631
+    },
+    {
+      "file": "config_24.h5",
+      "num_pdws": 1903431,
+      "activity_fraction": 0.16159666666666667
+    },
+    {
+      "file": "config_240.h5",
+      "num_pdws": 545056,
+      "activity_fraction": 0.194615
+    },
+    {
+      "file": "config_241.h5",
+      "num_pdws": 1715645,
+      "activity_fraction": 0.26534833333333335
+    },
+    {
+      "file": "config_242.h5",
+      "num_pdws": 2718584,
+      "activity_fraction": 0.259195
+    },
+    {
+      "file": "config_243.h5",
+      "num_pdws": 1089576,
+      "activity_fraction": 0.260845
+    },
+    {
+      "file": "config_244.h5",
+      "num_pdws": 304646,
+      "activity_fraction": 0.10916666666666666
+    },
+    {
+      "file": "config_245.h5",
+      "num_pdws": 4379533,
+      "activity_fraction": 0.23310992267444552
+    },
+    {
+      "file": "config_246.h5",
+      "num_pdws": 20812,
+      "activity_fraction": 0.011493333333333333
+    },
+    {
+      "file": "config_247.h5",
+      "num_pdws": 2445066,
+      "activity_fraction": 0.3074266666666667
+    },
+    {
+      "file": "config_248.h5",
+      "num_pdws": 2236136,
+      "activity_fraction": 0.2768683333333333
+    },
+    {
+      "file": "config_249.h5",
+      "num_pdws": 2502342,
+      "activity_fraction": 0.269
+    },
+    {
+      "file": "config_25.h5",
+      "num_pdws": 580862,
+      "activity_fraction": 0.20131333333333334
+    },
+    {
+      "file": "config_26.h5",
+      "num_pdws": 1628964,
+      "activity_fraction": 0.15166301910242902
+    },
+    {
+      "file": "config_27.h5",
+      "num_pdws": 746767,
+      "activity_fraction": 0.1912
+    },
+    {
+      "file": "config_28.h5",
+      "num_pdws": 355067,
+      "activity_fraction": 0.102765
+    },
+    {
+      "file": "config_29.h5",
+      "num_pdws": 2441169,
+      "activity_fraction": 0.2436470588235294
+    },
+    {
+      "file": "config_3.h5",
+      "num_pdws": 195462,
+      "activity_fraction": 0.09401333333333334
+    },
+    {
+      "file": "config_30.h5",
+      "num_pdws": 346692,
+      "activity_fraction": 0.13569962709913155
+    },
+    {
+      "file": "config_31.h5",
+      "num_pdws": 134171,
+      "activity_fraction": 0.07968166666666666
+    },
+    {
+      "file": "config_32.h5",
+      "num_pdws": 2873541,
+      "activity_fraction": 0.29558666666666666
+    },
+    {
+      "file": "config_33.h5",
+      "num_pdws": 849790,
+      "activity_fraction": 0.15270666666666666
+    },
+    {
+      "file": "config_34.h5",
+      "num_pdws": 2092562,
+      "activity_fraction": 0.19388373531230674
+    },
+    {
+      "file": "config_35.h5",
+      "num_pdws": 2093474,
+      "activity_fraction": 0.2959233333333333
+    },
+    {
+      "file": "config_36.h5",
+      "num_pdws": 2165767,
+      "activity_fraction": 0.242595
+    },
+    {
+      "file": "config_37.h5",
+      "num_pdws": 3577930,
+      "activity_fraction": 0.33835333333333334
+    },
+    {
+      "file": "config_38.h5",
+      "num_pdws": 3065195,
+      "activity_fraction": 0.31021
+    },
+    {
+      "file": "config_39.h5",
+      "num_pdws": 3280443,
+      "activity_fraction": 0.248385
+    },
+    {
+      "file": "config_4.h5",
+      "num_pdws": 113243,
+      "activity_fraction": 0.07464666666666667
+    },
+    {
+      "file": "config_40.h5",
+      "num_pdws": 577661,
+      "activity_fraction": 0.16548333333333334
+    },
+    {
+      "file": "config_41.h5",
+      "num_pdws": 642877,
+      "activity_fraction": 0.1849384523615856
+    },
+    {
+      "file": "config_42.h5",
+      "num_pdws": 3030635,
+      "activity_fraction": 0.22034560500089667
+    },
+    {
+      "file": "config_43.h5",
+      "num_pdws": 1870566,
+      "activity_fraction": 0.21087333333333333
+    },
+    {
+      "file": "config_44.h5",
+      "num_pdws": 1980834,
+      "activity_fraction": 0.2159691187547075
+    },
+    {
+      "file": "config_45.h5",
+      "num_pdws": 34292,
+      "activity_fraction": 0.022558333333333333
+    },
+    {
+      "file": "config_46.h5",
+      "num_pdws": 3084668,
+      "activity_fraction": 0.2414363791226991
+    },
+    {
+      "file": "config_47.h5",
+      "num_pdws": 1081928,
+      "activity_fraction": 0.2752616666666667
+    },
+    {
+      "file": "config_48.h5",
+      "num_pdws": 2555762,
+      "activity_fraction": 0.21824774549098197
+    },
+    {
+      "file": "config_49.h5",
+      "num_pdws": 1164305,
+      "activity_fraction": 0.22086802277343862
+    },
+    {
+      "file": "config_5.h5",
+      "num_pdws": 2040509,
+      "activity_fraction": 0.22853666666666667
+    },
+    {
+      "file": "config_50.h5",
+      "num_pdws": 4043605,
+      "activity_fraction": 0.282
+    },
+    {
+      "file": "config_51.h5",
+      "num_pdws": 2166551,
+      "activity_fraction": 0.34421
+    },
+    {
+      "file": "config_52.h5",
+      "num_pdws": 37406,
+      "activity_fraction": 0.029653333333333334
+    },
+    {
+      "file": "config_53.h5",
+      "num_pdws": 1303876,
+      "activity_fraction": 0.16534833333333335
+    },
+    {
+      "file": "config_54.h5",
+      "num_pdws": 282280,
+      "activity_fraction": 0.10628833333333333
+    },
+    {
+      "file": "config_55.h5",
+      "num_pdws": 551766,
+      "activity_fraction": 0.20016833333333334
+    },
+    {
+      "file": "config_56.h5",
+      "num_pdws": 869115,
+      "activity_fraction": 0.20685889424507528
+    },
+    {
+      "file": "config_57.h5",
+      "num_pdws": 27459,
+      "activity_fraction": 0.029725
+    },
+    {
+      "file": "config_58.h5",
+      "num_pdws": 475973,
+      "activity_fraction": 0.14063147660107975
+    },
+    {
+      "file": "config_59.h5",
+      "num_pdws": 1317750,
+      "activity_fraction": 0.2606366666666667
+    },
+    {
+      "file": "config_6.h5",
+      "num_pdws": 107190,
+      "activity_fraction": 0.046497998166996284
+    },
+    {
+      "file": "config_60.h5",
+      "num_pdws": 591400,
+      "activity_fraction": 0.22330398926596198
+    },
+    {
+      "file": "config_61.h5",
+      "num_pdws": 3007049,
+      "activity_fraction": 0.28499833333333335
+    },
+    {
+      "file": "config_62.h5",
+      "num_pdws": 3335740,
+      "activity_fraction": 0.3144983333333333
+    },
+    {
+      "file": "config_63.h5",
+      "num_pdws": 4124990,
+      "activity_fraction": 0.33836333333333335
+    },
+    {
+      "file": "config_64.h5",
+      "num_pdws": 4217414,
+      "activity_fraction": 0.2663183333333333
+    },
+    {
+      "file": "config_65.h5",
+      "num_pdws": 1198646,
+      "activity_fraction": 0.24333166666666667
+    },
+    {
+      "file": "config_66.h5",
+      "num_pdws": 1020465,
+      "activity_fraction": 0.23857
+    },
+    {
+      "file": "config_67.h5",
+      "num_pdws": 1844229,
+      "activity_fraction": 0.301305
+    },
+    {
+      "file": "config_68.h5",
+      "num_pdws": 126918,
+      "activity_fraction": 0.04353169772450604
+    },
+    {
+      "file": "config_69.h5",
+      "num_pdws": 1350728,
+      "activity_fraction": 0.25749666666666665
+    },
+    {
+      "file": "config_7.h5",
+      "num_pdws": 180413,
+      "activity_fraction": 0.024003333333333335
+    },
+    {
+      "file": "config_70.h5",
+      "num_pdws": 2690584,
+      "activity_fraction": 0.24090469579015222
+    },
+    {
+      "file": "config_71.h5",
+      "num_pdws": 2612674,
+      "activity_fraction": 0.26047856336968783
+    },
+    {
+      "file": "config_72.h5",
+      "num_pdws": 1822637,
+      "activity_fraction": 0.21668006128035763
+    },
+    {
+      "file": "config_73.h5",
+      "num_pdws": 2280526,
+      "activity_fraction": 0.29013833333333333
+    },
+    {
+      "file": "config_74.h5",
+      "num_pdws": 1417290,
+      "activity_fraction": 0.23813833333333334
+    },
+    {
+      "file": "config_75.h5",
+      "num_pdws": 1195505,
+      "activity_fraction": 0.20085833638248568
+    },
+    {
+      "file": "config_76.h5",
+      "num_pdws": 574508,
+      "activity_fraction": 0.15088231168466826
+    },
+    {
+      "file": "config_77.h5",
+      "num_pdws": 1354214,
+      "activity_fraction": 0.21666840758343345
+    },
+    {
+      "file": "config_78.h5",
+      "num_pdws": 1742315,
+      "activity_fraction": 0.2148942321592059
+    },
+    {
+      "file": "config_79.h5",
+      "num_pdws": 755370,
+      "activity_fraction": 0.15907183929320598
+    },
+    {
+      "file": "config_8.h5",
+      "num_pdws": 927131,
+      "activity_fraction": 0.15709759498935727
+    },
+    {
+      "file": "config_80.h5",
+      "num_pdws": 1358165,
+      "activity_fraction": 0.14671333333333333
+    },
+    {
+      "file": "config_81.h5",
+      "num_pdws": 984807,
+      "activity_fraction": 0.23527644031213682
+    },
+    {
+      "file": "config_82.h5",
+      "num_pdws": 1175758,
+      "activity_fraction": 0.24594166666666667
+    },
+    {
+      "file": "config_83.h5",
+      "num_pdws": 24313,
+      "activity_fraction": 0.023138636293100773
+    },
+    {
+      "file": "config_84.h5",
+      "num_pdws": 2798568,
+      "activity_fraction": 0.26048210279420764
+    },
+    {
+      "file": "config_85.h5",
+      "num_pdws": 912325,
+      "activity_fraction": 0.20791
+    },
+    {
+      "file": "config_86.h5",
+      "num_pdws": 1069704,
+      "activity_fraction": 0.2751516666666667
+    },
+    {
+      "file": "config_87.h5",
+      "num_pdws": 27852,
+      "activity_fraction": 0.028006666666666666
+    },
+    {
+      "file": "config_88.h5",
+      "num_pdws": 954710,
+      "activity_fraction": 0.196985
+    },
+    {
+      "file": "config_89.h5",
+      "num_pdws": 1140008,
+      "activity_fraction": 0.08969544121275254
+    },
+    {
+      "file": "config_9.h5",
+      "num_pdws": 665413,
+      "activity_fraction": 0.10707833333333333
+    },
+    {
+      "file": "config_90.h5",
+      "num_pdws": 449685,
+      "activity_fraction": 0.16234833333333334
+    },
+    {
+      "file": "config_91.h5",
+      "num_pdws": 612646,
+      "activity_fraction": 0.11073689660853397
+    },
+    {
+      "file": "config_92.h5",
+      "num_pdws": 3771822,
+      "activity_fraction": 0.30675944055944054
+    },
+    {
+      "file": "config_93.h5",
+      "num_pdws": 496455,
+      "activity_fraction": 0.14491166666666666
+    },
+    {
+      "file": "config_94.h5",
+      "num_pdws": 3042210,
+      "activity_fraction": 0.2116146501353855
+    },
+    {
+      "file": "config_95.h5",
+      "num_pdws": 877087,
+      "activity_fraction": 0.1536392685957749
+    },
+    {
+      "file": "config_96.h5",
+      "num_pdws": 2730920,
+      "activity_fraction": 0.2985683333333333
+    },
+    {
+      "file": "config_97.h5",
+      "num_pdws": 1495836,
+      "activity_fraction": 0.18634166666666666
+    },
+    {
+      "file": "config_98.h5",
+      "num_pdws": 215103,
+      "activity_fraction": 0.11262
+    },
+    {
+      "file": "config_99.h5",
+      "num_pdws": 1022515,
+      "activity_fraction": 0.22011440390395243
+    }
+  ]
+}
